@@ -23,8 +23,6 @@
 }
 
 #About{
-  
-  
   background-image:url('http://i.imgur.com/LvusUen.jpg');
   background-repeat:no-repeat;
   background-attachment: fixed;
@@ -34,15 +32,30 @@
 }
 
 #Work{
-  background-color: #1ABC9C;
+  background-image:url('http://i.imgur.com/6JXt8oT.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: 100% 100%;
+  height: 730px;
 }
 
 #Portfolio{
-  background-color: #00AA89;
+  background-image:url('http://i.imgur.com/KQequDO.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: 100% 100%;
+  height: 730px;
 }
 
 #Skills{
-  background-color: #007E65;
+  background-image:url('http://i.imgur.com/qYfEEp1.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: 100% 100%;
+  height: 730px;
 }
 
 #BlackBox{
