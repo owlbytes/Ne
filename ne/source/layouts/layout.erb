@@ -13,21 +13,16 @@
     <%= stylesheet_link_tag "normalize", "all", "grid" %>
     <%= javascript_include_tag  "all" %>
   </head>
-<nav class="container">
-  <div class="five-col">
-    <h1 id="NavTitle">Nèha Shah</h1>
+  <div class="col-md-12" id="Navigation">
+    <h1>Nèha Shah</h1>
+    <div>
+      <a href="#About">About</a>
+      <a href="#Work">Work</a>
+      <a href="#Portfolio">Portfolio</a>
+      <a href="#Skills">Skills</a>
+    </div>
   </div>
-  <div class="five-col">
-  </div>
-  <div class="six-col">
-  </div>
-  
-</nav>
 
-
-
-  
-  
   <body class="<%= page_classes %>">
     <%= yield %>
   </body>

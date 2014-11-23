@@ -1,7 +1,54 @@
-nav{
-  background-color: white;
-  height: 60px;
-  #NavTitle{
-    background-color: none;
+#red{
+  background-color: red;
+}
+#orange{
+  background-color: orange;
+}
+#yellow{
+  background-color: yellow;
+}
+
+#Navigation{
+  // position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 1);
+  text-align: center;
+  a{
+    padding: 50px;
   }
+}
+
+#About{
+  
+  
+  background-image:url('http://i.imgur.com/LvusUen.jpg');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: 100% 100%;
+  height: 730px;
+}
+
+#Work{
+  background-color: #1ABC9C;
+}
+
+#Portfolio{
+  background-color: #00AA89;
+}
+
+#Skills{
+  background-color: #007E65;
+}
+
+#BlackBox{
+  margin-top-top: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100px;
+  text-align: center;
+  color: #ffffff;
 }
